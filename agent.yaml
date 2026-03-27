@@ -1,0 +1,14 @@
+name: aa-workday-team-agent
+description: Internal Workday support agent for the American Airlines team with document retrieval and integration catalog lookup.
+template:
+  kind: hosted
+  protocols:
+    responses:
+      version: v1
+  environment_variables:
+    - FOUNDRY_PROJECT_ENDPOINT
+    - FOUNDRY_MODEL_DEPLOYMENT_NAME
+    - AGENT_NAME
+    - SHAREPOINT_DOCS_PATH
+    - INTEGRATIONS_PATH
+    - KNOWLEDGE_GAP_LOG_PATH

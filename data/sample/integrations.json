@@ -1,0 +1,47 @@
+[
+  {
+    "integration_name": "Worker Data Outbound",
+    "source_system": "Workday",
+    "target_system": "Crew Identity Hub",
+    "direction": "Outbound",
+    "protocol": "SFTP",
+    "frequency": "Every 15 minutes",
+    "owner_team": "HRIS Integration Support",
+    "support_contact": "hris-integrations@aa.com",
+    "environment_coverage": ["PROD", "TEST"],
+    "criticality": "High",
+    "last_updated": "2026-02-10",
+    "row_id": "row-14",
+    "domain": "Worker Data"
+  },
+  {
+    "integration_name": "Payroll Vendor Export",
+    "source_system": "Workday",
+    "target_system": "ADP Payroll",
+    "direction": "Outbound",
+    "protocol": "SFTP",
+    "frequency": "Every 4 hours",
+    "owner_team": "Payroll Technology",
+    "support_contact": "payroll-tech@aa.com",
+    "environment_coverage": ["PROD", "TEST"],
+    "criticality": "Critical",
+    "last_updated": "2026-03-05",
+    "row_id": "row-28",
+    "domain": "Payroll"
+  },
+  {
+    "integration_name": "Candidate Onboarding",
+    "source_system": "Workday Recruiting",
+    "target_system": "OnboardPro",
+    "direction": "Outbound",
+    "protocol": "REST API",
+    "frequency": "Near real time",
+    "owner_team": "Talent Operations",
+    "support_contact": "talent-ops@aa.com",
+    "environment_coverage": ["PROD", "UAT"],
+    "criticality": "Medium",
+    "last_updated": "2026-01-30",
+    "row_id": "row-31",
+    "domain": "Recruiting"
+  }
+]

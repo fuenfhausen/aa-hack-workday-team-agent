@@ -1,0 +1,35 @@
+[
+  {
+    "id": "doc-001",
+    "title": "Worker Data Outbound Runbook",
+    "url": "https://sharepoint.contoso.com/sites/workday/runbooks/worker-data-outbound",
+    "page_type": "runbook",
+    "functional_area": "Integrations",
+    "last_modified": "2026-02-15",
+    "owner": "HRIS Integration Support",
+    "integration_names": ["Worker Data Outbound"],
+    "content": "Use this runbook when downstream systems are missing worker updates from Workday. Confirm the Workday event completed, validate the outbound file landed, check middleware alerts, and contact the integration owner before escalating."
+  },
+  {
+    "id": "doc-002",
+    "title": "Recruiting Onboarding Support Notes",
+    "url": "https://sharepoint.contoso.com/sites/workday/processes/recruiting-onboarding",
+    "page_type": "process",
+    "functional_area": "Recruiting",
+    "last_modified": "2026-01-30",
+    "owner": "Talent Operations",
+    "integration_names": ["Candidate Onboarding"],
+    "content": "This page documents the recruiting onboarding support workflow. Analysts should validate candidate status in Workday, confirm the downstream onboarding vendor received the event, and review the incident checklist before opening a Sev 2 ticket."
+  },
+  {
+    "id": "doc-003",
+    "title": "Payroll Vendor Integration Design",
+    "url": "https://sharepoint.contoso.com/sites/workday/designs/payroll-vendor-integration",
+    "page_type": "design",
+    "functional_area": "Payroll",
+    "last_modified": "2026-03-05",
+    "owner": "Payroll Technology",
+    "integration_names": ["Payroll Vendor Export"],
+    "content": "The payroll vendor export sends approved worker, compensation, and deduction changes to the payroll provider every four hours over SFTP. The design includes file naming, retry handling, and monitoring expectations."
+  }
+]

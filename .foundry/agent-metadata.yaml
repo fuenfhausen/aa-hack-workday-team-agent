@@ -1,0 +1,10 @@
+defaultEnvironment: dev
+environments:
+  dev:
+    projectEndpoint: ${FOUNDRY_PROJECT_ENDPOINT}
+    agentName: aa-workday-team-agent
+    azureContainerRegistry: ""
+    testCases:
+      - dataset: sample-questions
+        evaluator: factual-grounding
+        threshold: 0.8
