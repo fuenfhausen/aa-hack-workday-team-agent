@@ -10,7 +10,7 @@ from pptx.util import Inches, Pt
 
 
 ROOT = Path(__file__).resolve().parents[1]
-OUTPUT = ROOT / "presentations" / "aa-workday-team-agent-overview.pptx"
+OUTPUT = ROOT / "presentations" / "aa-regional-hris-workday-team-agent-overview.pptx"
 
 NAVY = RGBColor(11, 31, 58)
 BLUE = RGBColor(30, 78, 121)
@@ -131,7 +131,7 @@ def create_deck() -> None:
     accent.fill.solid()
     accent.fill.fore_color.rgb = GOLD
     accent.line.color.rgb = GOLD
-    add_title(slide, "AA Workday Team Agent", "Microsoft Foundry + Foundry Agent Service + Microsoft Agent Framework", dark=True)
+    add_title(slide, "AA Regional HRIS WorkDay Team Agent", "Microsoft Foundry + Foundry Agent Service + Microsoft Agent Framework", dark=True)
     add_bullets(
         slide,
         0.95,
@@ -139,9 +139,9 @@ def create_deck() -> None:
         7.2,
         2.6,
         [
-            "Solution name: AA Workday Team Agent",
+            "Solution name: AA Regional HRIS WorkDay Team Agent",
             "One-line impact: Reduce time spent hunting for Workday documentation and integration facts by grounding answers in SharePoint content and a normalized integration catalog.",
-            "Team name: AA Hack Workday Team",
+            "Team name: AA Regional HRIS WorkDay Team",
             "Team members: To be confirmed",
         ],
         color=WHITE,

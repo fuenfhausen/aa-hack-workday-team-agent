@@ -1,8 +1,8 @@
-# AA Workday Team Agent Architecture
+# AA Regional HRIS WorkDay Team Agent Architecture
 
 ## Objective
 
-Build an internal assistant that helps the AA Workday team answer questions faster, locate documentation, understand existing integrations, and reduce dependency on tribal knowledge.
+Build an internal assistant that helps the AA Regional HRIS WorkDay team answer questions faster, locate documentation, understand existing integrations, and reduce dependency on tribal knowledge.
 
 The first version should answer questions such as:
 

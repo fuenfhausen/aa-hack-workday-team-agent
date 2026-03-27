@@ -1,6 +1,6 @@
-# AA Workday Team Agent
+# AA Regional HRIS WorkDay Team Agent
 
-This repository contains a Microsoft Foundry hosted agent built with Microsoft Agent Framework for the American Airlines Workday support team.
+This repository contains a Microsoft Foundry hosted agent built with Microsoft Agent Framework for the American Airlines Regional HRIS WorkDay support team.
 
 Primary knowledge sources:
 
